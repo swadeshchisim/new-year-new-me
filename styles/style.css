@@ -67,8 +67,10 @@ header {
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    background: #F15B22;
     border-radius: 5px;
+}
+.banner-btn-bg{
+    background: #F15B22;
 }
 
 /* Main Section Styles */
@@ -131,3 +133,19 @@ header {
     padding: 24px 0 16px;
 }
 
+/* call to action styles */
+.call-to-action-area{
+    background: linear-gradient(90.00deg, rgb(241, 91, 34),rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    padding: 60px 64px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+.call-to-action-area > .section-title{
+    color: #fff;
+    margin-bottom: 24px;
+}
+.call-now-btn{
+    color: #F15B22;
+    background: #fff;
+    padding: 20px 36px ;
+}
