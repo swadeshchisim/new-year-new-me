@@ -27,7 +27,8 @@ body {
     color: #444343;
     line-height: 26px;
 }
-.text-align{
+
+.text-align {
     text-align: center;
 }
 
@@ -69,7 +70,8 @@ header {
     line-height: 23px;
     border-radius: 5px;
 }
-.banner-btn-bg{
+
+.banner-btn-bg {
     background: #F15B22;
 }
 
@@ -116,9 +118,10 @@ header {
 }
 
 /* my plans style */
-.my-plans-area{
+.my-plans-area {
     padding-bottom: 130px;
 }
+
 .my-plans {
     display: flex;
     justify-content: space-between;
@@ -134,18 +137,87 @@ header {
 }
 
 /* call to action styles */
-.call-to-action-area{
-    background: linear-gradient(90.00deg, rgb(241, 91, 34),rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+.call-to-action-area {
+    background: linear-gradient(90.00deg, rgb(241, 91, 34), rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
     padding: 60px 64px;
     border-radius: 8px;
     margin-bottom: 130px;
 }
-.call-to-action-area > .section-title{
+
+.call-to-action-area>.section-title {
     color: #fff;
     margin-bottom: 24px;
 }
-.call-now-btn{
+
+.call-now-btn {
     color: #F15B22;
     background: #fff;
-    padding: 20px 36px ;
+    padding: 20px 36px;
+}
+
+/* footer styles */
+.footer-area {
+    background: #151414;
+    padding: 130px 0;
+}
+.footer-content{
+    display: flex;
+}
+.footer-title {
+    color: #f8f8f8;
+    margin-bottom: 16px;
+}
+.footer-social-area{
+    width: 50%;
+}
+.footer-social-area>.section-description {
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.contact-info {
+    color: #fff;
+    padding-bottom: 16px;
+    line-height: 26px;
+}
+
+.social-icon {
+    margin-top: 16px;
+}
+
+.social-icon>img {
+    margin-right: 17px;
+}
+
+/* newsletter styles */
+.footer-newsletter{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.subscribe-title {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+input[type="email"] {
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 20px;
+    color: #f3f3f3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    background: transparent;
+    width: 325px;
+
+}
+.subscribe-btn{
+    color: #F15B22;
+    display: block;
+    margin-top: 16px;
 }
