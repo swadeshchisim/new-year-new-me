@@ -49,8 +49,7 @@ header{
     line-height: 76px;
     margin-bottom: 24px;
 }
-.banner-description-width{
-    width: 494px;
+.banner-area > div > .section-description{
     margin-bottom: 32px;
 }
 /* primary button */
@@ -65,3 +64,38 @@ header{
     border-radius: 5px;
 }
 
+/* Main Section Styles */
+
+/* my failures styles */
+#my-failure-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    margin: 260px 0 130px;
+}
+.my-failure-img{
+    width: 527px;
+    height: 527px;
+    background: rgba(241, 91, 34, 0.2);
+    border-radius: 50%;
+}
+.my-failure-img > img{
+    position: relative;
+    bottom: 196px;
+    right: 24px;
+}
+.my-failure-text-container > .section-title{
+    margin-bottom: 24px;
+}
+.my-failure-text-container > .section-description {
+    margin-bottom: 16px;
+}
+.my-failure-item{
+    display: flex;
+    gap: 10px;
+}
+.my-failure-item > .fa-check{
+    color: #16d887;
+    font-size: 24px;
+}
