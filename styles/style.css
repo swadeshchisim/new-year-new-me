@@ -29,18 +29,20 @@ body {
 }
 
 /* header styles */
-header{
+header {
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* banner styles */
-.banner-area{
+.banner-area {
     display: flex;
     justify-content: end;
     text-align: right;
     padding: 216px 0 166px;
 }
+
 .banner-title {
     width: 525px;
     color: #151414;
@@ -49,9 +51,11 @@ header{
     line-height: 76px;
     margin-bottom: 24px;
 }
-.banner-area > div > .section-description{
+
+.banner-area>div>.section-description {
     margin-bottom: 32px;
 }
+
 /* primary button */
 .btn-primary {
     color: #fff;
@@ -67,35 +71,42 @@ header{
 /* Main Section Styles */
 
 /* my failures styles */
-#my-failure-area{
+#my-failure-area {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 87px;
     margin: 260px 0 130px;
 }
-.my-failure-img{
+
+.my-failure-img {
     width: 527px;
     height: 527px;
     background: rgba(241, 91, 34, 0.2);
     border-radius: 50%;
 }
-.my-failure-img > img{
+
+.my-failure-img>img {
     position: relative;
     bottom: 196px;
     right: 24px;
 }
-.my-failure-text-container > .section-title{
+
+.my-failure-text-container>.section-title {
     margin-bottom: 24px;
 }
-.my-failure-text-container > .section-description {
+
+.my-failure-text-container>.section-description {
     margin-bottom: 16px;
 }
-.my-failure-item{
+
+.my-failure-item {
     display: flex;
     gap: 10px;
 }
-.my-failure-item > .fa-check{
+
+.my-failure-item>.fa-check {
     color: #16d887;
     font-size: 24px;
 }
+
