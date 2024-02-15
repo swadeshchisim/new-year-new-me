@@ -27,6 +27,9 @@ body {
     color: #444343;
     line-height: 26px;
 }
+.text-align{
+    text-align: center;
+}
 
 /* header styles */
 header {
@@ -110,3 +113,20 @@ header {
     font-size: 24px;
 }
 
+/* my plans style */
+.my-plans-area{
+    padding-bottom: 130px;
+}
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.my-plans-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 24px 0 16px;
+}
