@@ -228,7 +228,7 @@ input[type="email"] {
     .banner-area {
         padding: 80px 50px;
     }
-    .banner-area > div, .banner-title, .section-description{
+    .banner-area > div, .banner-title{
         width: 85%;
     }
     .banner-title {
@@ -238,13 +238,15 @@ input[type="email"] {
     .btn-primary {
         margin-right: 60px;
     }
-    #my-failure-area {
+    #my-failure-area, .my-plans {
         flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
     }
     .my-failure-text-container {
         padding: 0 20px;
     }
-    .hide {
+    .hide, #hide {
         display: none;
     }
 }
