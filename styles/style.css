@@ -221,3 +221,21 @@ input[type="email"] {
     display: block;
     margin-top: 16px;
 }
+
+/* responsive media query styles for small device */
+@media screen and (max-width: 576px) {
+    .banner-area {
+        padding: 30px;
+    }
+    .banner-area > div, .banner-title{
+        width: 85%;
+    }
+    .banner-title {
+        font-size: 28px;
+        line-height: normal;
+        /* margin-bottom: 0; */
+    }
+    .hide {
+        display: none;
+    }
+}
