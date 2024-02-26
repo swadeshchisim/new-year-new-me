@@ -69,6 +69,7 @@ header {
     font-weight: 600;
     line-height: 23px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .banner-btn-bg {
@@ -225,15 +226,23 @@ input[type="email"] {
 /* responsive media query styles for small device */
 @media screen and (max-width: 576px) {
     .banner-area {
-        padding: 30px;
+        padding: 80px 50px;
     }
-    .banner-area > div, .banner-title{
+    .banner-area > div, .banner-title, .section-description{
         width: 85%;
     }
     .banner-title {
         font-size: 28px;
         line-height: normal;
-        /* margin-bottom: 0; */
+    }
+    .btn-primary {
+        margin-right: 60px;
+    }
+    #my-failure-area {
+        flex-direction: column;
+    }
+    .my-failure-text-container {
+        padding: 0 20px;
     }
     .hide {
         display: none;
